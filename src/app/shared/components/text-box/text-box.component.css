@@ -1,0 +1,41 @@
+.text-box{
+    width: 90%;
+    /* color: ; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+ 
+.text-box p{
+    margin: 10px o 40px;
+    font-size: 14px;
+}
+
+.btn-know{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #000 ;
+    padding: 12px 34px;
+    color: #000;
+    font-size: 13px;
+    /* background: transparent; */
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-know:hover{
+    background: #f44336;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+}

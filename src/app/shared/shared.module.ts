@@ -4,6 +4,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { TextBoxComponent } from './components/text-box/text-box.component';
 
 
 
@@ -12,10 +13,15 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     HomePageComponent,
     AboutPageComponent,
     ContactPageComponent,
-    NavBarComponent
+    NavBarComponent,
+    TextBoxComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+  ],
+  exports: [
+    NavBarComponent,
+    TextBoxComponent
   ]
 })
 export class SharedModule { }

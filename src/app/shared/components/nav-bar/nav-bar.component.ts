@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'shared-navbar',
   templateUrl: './nav-bar.component.html',
-  styles: ``
+  styleUrl: './nav-bar.component.css',
 })
 export class NavBarComponent {
 

@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
+
+  
+  showMenu(){
+  const navLinks = document.getElementById("navLinks");
+
+  if (navLinks){
+    navLinks.style.right = "0";
+  }
+  
+  }
+  
+  hideMenu(){
+    const navLinks = document.getElementById("navLinks");
+
+    if (navLinks){
+      navLinks.style.right = "-200px"
+    }
+
+  }
 }

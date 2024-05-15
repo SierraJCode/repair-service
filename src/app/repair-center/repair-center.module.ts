@@ -15,6 +15,7 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
   ],
   exports: [
     ServicePageComponent,
+    AboutPageComponent
   ]
 })
 export class RepairCenterModule { }

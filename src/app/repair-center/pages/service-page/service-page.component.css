@@ -50,6 +50,6 @@ h3 {
 @media(max-width: 700px){
     .row{
         flex-direction: column;
-        padding: 20px;
+        /* padding: 20px; */
     }
 }

@@ -10,24 +10,11 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 export class NavBarComponent {
   faBars = faBars;
   faTimes = faTimes;
+  isMenuOpen: boolean = false;
 
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 
   
-  showMenu():void{
-  const navLinks = document.getElementById("navLinks");
-
-  if (navLinks){
-    navLinks.style.right = "0";
-  }
-  
-  }
-  
-  hideMenu():void{
-    const navLinks = document.getElementById("navLinks");
-
-    if (navLinks){
-      navLinks.style.right = "-200px"
-    }
-
-  }
 }

@@ -13,19 +13,19 @@
 </div> 
 -->
 
-<section class="header">
+<section class="header" *ngIf="loadServicePage">
   <shared-navbar></shared-navbar>
   <shared-text-box></shared-text-box>
 </section>
 
-<section class="service">
+<section class="service" *ngIf="loadServicePage">
   <repair-service-page></repair-service-page> 
 </section>
 
-<section class="maps">
+<section class="maps" *ngIf="loadServicePage">
   <repair-about-page></repair-about-page>
 </section>
 
-<section class="featured">
+<section class="featured" *ngIf="loadServicePage">
   <repair-featured></repair-featured>
 </section>

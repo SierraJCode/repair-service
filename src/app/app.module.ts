@@ -13,7 +13,6 @@ import { RepairCenterModule } from './repair-center/repair-center.module';
   ],
   imports: [
     BrowserModule,
-    // FontAwesomeModule,
     AppRoutingModule,
     SharedModule,
     RepairCenterModule

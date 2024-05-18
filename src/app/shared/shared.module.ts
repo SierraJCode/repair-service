@@ -14,7 +14,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TextBoxComponent,
   ],
   imports: [
-    CommonModule,
+    // CommonModule,
     FontAwesomeModule
     
   ],

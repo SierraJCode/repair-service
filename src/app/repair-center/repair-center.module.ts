@@ -15,7 +15,7 @@ import { FeaturedRepairComponent } from './pages/featured-repair/featured-repair
     FeaturedRepairComponent
   ],
   imports: [
-    CommonModule
+    // CommonModule
   ],
   exports: [
     ServicePageComponent,

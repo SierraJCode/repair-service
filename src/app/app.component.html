@@ -1,31 +1,21 @@
-<!-- <div class="header">
-  <shared-navbar></shared-navbar>
-  <shared-text-box></shared-text-box>
-  <h2>holamundo</h2>
-</div>
-
-
-<div>
-
-
-   <repair-service-page></repair-service-page> 
-
-</div> 
--->
-
 <section class="header" *ngIf="loadServicePage">
   <shared-navbar></shared-navbar>
   <shared-text-box></shared-text-box>
 </section>
 
-<section class="service" *ngIf="loadServicePage">
-  <repair-service-page></repair-service-page> 
-</section>
+<!-- Servicios -->
 
-<section class="maps" *ngIf="loadServicePage">
-  <repair-about-page></repair-about-page>
-</section>
+<repair-service-page></repair-service-page> 
 
-<section class="featured" *ngIf="loadServicePage">
-  <repair-featured></repair-featured>
-</section>
+<!-- Centro de servicios -->
+
+<repair-about-page></repair-about-page>
+
+<!-- Reparaciones desatacadas -->
+
+<repair-facilities></repair-facilities>
+
+<!-- Testimonios -->
+
+<repair-testimonials></repair-testimonials>
+

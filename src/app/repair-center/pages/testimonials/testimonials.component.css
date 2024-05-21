@@ -1,0 +1,17 @@
+.testimonials-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    cursor: pointer;
+    background: #fff3f3;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 0.2fr 1.7fr;
+}
+
+.testimonials-col img{
+    height: 40px;
+    border-radius: 50%;
+
+}

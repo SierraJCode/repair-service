@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ServicePageComponent } from './pages/service-page/service-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { FeaturedRepairComponent } from './pages/featured-repair/featured-repair.component';
+import { FacilitiesComponent } from './pages/facilities/facilities.component';
+import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 
 
 
@@ -10,15 +12,19 @@ import { FeaturedRepairComponent } from './pages/featured-repair/featured-repair
   declarations: [
     ServicePageComponent,
     AboutPageComponent,
-    FeaturedRepairComponent
+    FeaturedRepairComponent,
+    FacilitiesComponent,
+    TestimonialsComponent
   ],
   imports: [
-    // CommonModule
+    CommonModule
   ],
   exports: [
     ServicePageComponent,
     AboutPageComponent,
-    FeaturedRepairComponent
+    FeaturedRepairComponent,
+    FacilitiesComponent,
+    TestimonialsComponent
   ]
 })
 export class RepairCenterModule { }

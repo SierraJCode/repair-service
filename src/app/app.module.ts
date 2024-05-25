@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
 import { RepairCenterModule } from './repair-center/repair-center.module';
+import { PrincipalPageModule } from './principal-page/principal-page.module';
 
 @NgModule({
   declarations: [
@@ -14,8 +15,8 @@ import { RepairCenterModule } from './repair-center/repair-center.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
-    RepairCenterModule
+    RepairCenterModule,
+    PrincipalPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

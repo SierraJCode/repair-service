@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit{
-  title = 'repairService';
-  loadServicePage = false;
+export class AppComponent{
+  // title = 'repairService';
+  // loadServicePage = false;
 
-  ngOnInit(): void {
-    setTimeout(() => this.loadServicePage = true, 2000); 
-  }
+  // ngOnInit(): void {
+  //   setTimeout(() => this.loadServicePage = true, 2000); 
+  // }
 }

@@ -5,36 +5,3 @@
     padding: 0;
     overflow-x: hidden;
 }
-
-.title{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.title p {
-    color: #777;
-    line-height: 22px;
-    padding: 10px;
-    font-size: 15px;
-    font-weight: 300;
-    padding: 0;
-}
-
-.row {
-    display: flex;
-    margin-top: 5%;
-    justify-content: space-between;
-}
-
-@media(max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}

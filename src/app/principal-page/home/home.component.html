@@ -1,0 +1,24 @@
+<main class="header">
+    <nav>
+        <a href="/"><img src="assets/logo.png"></a>
+        <div class="nav-links" [ngStyle]="{'right': isMenuOpen ? '0' : '-200px'}">
+            <fa-icon [icon]="faTimes" (click)="toggleMenu()" class="fa"></fa-icon>
+    
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <fa-icon [icon]="faBars" (click)="toggleMenu()" class="fa"></fa-icon>
+    </nav>
+    
+    <div class="conta">
+        <div class="text-box">
+            <h1>Center Repair Electronics</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ipsam non ut iure sunt porro perspiciatis libero debitis voluptatum ipsum nemo eum itaque, laboriosam magnam <br> autem labore, nihil voluptates tempore.</p>
+            <a href="#" class="btn-know" > Know more</a>
+        </div>
+    </div>
+</main>

@@ -18,9 +18,5 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FontAwesomeModule
     
   ],
-  exports: [
-    NavBarComponent,
-    TextBoxComponent,
-  ]
 })
 export class SharedModule { }

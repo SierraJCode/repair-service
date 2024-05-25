@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
-import { SharedModule } from './shared/shared.module';
+
 import { RepairCenterModule } from './repair-center/repair-center.module';
 import { PrincipalPageModule } from './principal-page/principal-page.module';
 

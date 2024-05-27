@@ -1,5 +1,12 @@
 /* Estilos reutilizados */
 
+/* Evitar desplazamiento horizontal */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Añadido para evitar el desplazamiento horizontal */
+}
+
 .col{
     width: 80%;
     margin: auto;

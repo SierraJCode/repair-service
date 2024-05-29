@@ -269,6 +269,7 @@ h3 {
 .info-box p {
     color: #fff;
     font-size: 20px;
+    padding-bottom: 15px;
 }
 
 .msj img {
@@ -285,6 +286,15 @@ h3 {
     border: none;
     outline: none;
     box-sizing: border-box;
+    transition: 0.5s;
+
+}
+
+.msj button:hover{
+    cursor: pointer;
+    background: #fff;
+    transform: scale(1.1);
+
 }
 
 @media(max-width: 700px){

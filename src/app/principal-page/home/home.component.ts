@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -12,6 +12,10 @@ export class HomeComponent {
 
   faBars = faBars;
   faTimes = faTimes;
+  faEnvelope = faEnvelope;
+  faPhone = faPhone;
+
+
   isMenuOpen: boolean = false;
 
   toggleMenu() {

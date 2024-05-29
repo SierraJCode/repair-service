@@ -32,6 +32,7 @@ p {
     width: 100%;
     scroll-snap-align: center;
     scroll-snap-stop: always;
+    overflow-x: hidden;
 
 }
 
@@ -209,8 +210,21 @@ h3 {
 
 /*--------------------- Tercera sección--------------------- */
 
+.facilities-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Estilos para pantallas menores a 700px */
+@media (max-width: 699px) {
+    .facilities-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .facilities-col {
-    flex-basis: 31%;
+    flex-basis: 16%;
     border-radius: 10px;
     margin-bottom: 3%;
     text-align: left;

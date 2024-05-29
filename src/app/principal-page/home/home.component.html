@@ -58,7 +58,11 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ipsa a beatae eligendi veniam quis harum ea facere vitae ipsam repreh</p>
     
     <div class="facilities-container">
-        <div class="facilities-col">
+        <div class="facilities-col" *ngFor="let facilite of facilities">
+            <img [src]="facilite.img">
+            <h3> {{facilite.title}} </h3>
+        </div>
+        <!-- <div class="facilities-col">
             <img src="assets/caja.jpg">
             <h3>Reparación Centralita Bosch Motronic M1.1 / M1.2 / M1.3</h3>
         </div>
@@ -85,6 +89,6 @@
         <div class="facilities-col">
             <img src="assets/caja.jpg">
             <h3>Reparación Centralita ABS TRW EBC 450 ABS Ford</h3>
-        </div>
+        </div> -->
     </div>
 </div>

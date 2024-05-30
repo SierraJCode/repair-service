@@ -15,8 +15,8 @@ import { PrincipalPageModule } from './principal-page/principal-page.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RepairCenterModule,
-    PrincipalPageModule
+    PrincipalPageModule,
+    RepairCenterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

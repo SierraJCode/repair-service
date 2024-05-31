@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { faBars, faTimes, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes, faEnvelope, faPhone, faStar, faMoneyCheckDollar, faCalendar, faClock } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -14,11 +14,15 @@ export class HomeComponent {
   faTimes = faTimes;
   faEnvelope = faEnvelope;
   faPhone = faPhone;
+  faStar = faStar;
+  faMoney = faMoneyCheckDollar;
+  faCalendar = faCalendar;
+  faTime = faClock;
 
 
   isMenuOpen: boolean = false;
 
-  toggleMenu() {
+  toggleMenu() : void{
     this.isMenuOpen = !this.isMenuOpen;
   }
 

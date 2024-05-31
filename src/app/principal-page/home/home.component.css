@@ -23,6 +23,7 @@ p {
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 
 /*------------------------- home page----------------------------- */
@@ -310,19 +311,25 @@ h3 {
 
 /* ----------------------Quinta sección------------------------ */
 
+.quality{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
 .quality-row fa-icon{
     font-size: 30px;
     /* color: #fff3f3; */
 }
 
+
 @media(max-width: 700px){
-    .quality{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+
     .quality-row{
-        margin: 15px;
+        flex: 1 1 15%;
     }
+
 }
 
 

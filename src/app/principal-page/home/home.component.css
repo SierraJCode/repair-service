@@ -208,7 +208,7 @@ h3 {
 
 /*--------------------- Tercera sección--------------------- */
 
-.facilities-container {
+.repair-container {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(6, 1fr);
@@ -216,24 +216,24 @@ h3 {
 
 /* Estilos para pantallas menores a 700px */
 @media (max-width: 699px) {
-    .facilities-container {
+    .repair-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-.facilities-col {
+.repair-col {
     flex-basis: 16%;
     border-radius: 10px;
     margin-bottom: 3%;
     text-align: left;
 }
 
-.facilities-col img {
+.repair-col img {
     width: 100%;
     border-radius: 10px;
 }
 
-.facilities-col h3{
+.repair-col h3{
     padding: 15px 0;
 }
 
@@ -301,45 +301,31 @@ h3 {
     margin-right: 8px;
 }
 
-/* .info-box div {
-    margin-top: 10px;
-}
-
-.info-box p {
-    color: #fff;
-    font-size: 20px;
-    padding-bottom: 15px;
-}
-
-.msj img {
-    height: 100px;
-}
-
-.msj button {
-    width: 50%;
-    font-weight: bold;
-    background: #32ee6a;
-    color: #000;
-    padding: 17px 25px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    transition: 0.5s;
-
-}
-
-.msj button:hover{
-    cursor: pointer;
-    background: #fff;
-    transform: scale(1.1);
-
-}
-
-} */
 @media(max-width: 700px){
     .entire{
         flex-direction: column;
         gap: 15px;
     }
 }
+
+/* ----------------------Quinta sección------------------------ */
+
+.quality-row fa-icon{
+    font-size: 30px;
+    /* color: #fff3f3; */
+}
+
+@media(max-width: 700px){
+    .quality{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quality-row{
+        margin: 15px;
+    }
+}
+
+
+
+
+

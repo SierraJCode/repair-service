@@ -57,8 +57,8 @@
     <h1>Reparaciones Destacadas</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ipsa a beatae eligendi veniam quis harum ea facere vitae ipsam repreh</p>
     
-    <div class="facilities-container">
-        <div class="facilities-col" *ngFor="let facilite of facilities">
+    <div class="repair-container">
+        <div class="repair-col" *ngFor="let facilite of facilities">
             <img [src]="facilite.img">
             <h3> {{facilite.title}} </h3>
         </div>
@@ -71,7 +71,7 @@
     <h1>Contactar con nosotros</h1>
     <div class="entire">
         <div class="info-box">
-            <p>Horario de atencion de <br> Lunes a viernes de 8:00 am a 7:00 pm</p>
+            <p>Horario de atención de <br> Lunes a viernes de 8:00 am a 7:00 pm</p>
             <div>
                 <span> <fa-icon [icon]="faEnvelope"></fa-icon> </span>
                 <a href="mailto:angellzoldyck8@gmail.com"> correoprueba&#64;gmail.com
@@ -93,4 +93,42 @@
             </a>
         </div>
     </div>
+</div>
+
+<!-------------------------- Quinta Seccion---------------------->
+
+<div class="col">
+    <div class="row quality">
+        <div class="quality-row">
+            <fa-icon [icon]="faStar"></fa-icon>
+            <h2>Alta calidad</h2>
+            <p>Servicio premium puerta a puerta. <br> Recogida y entrega incluidas.</p>
+        </div>
+
+        <div class="quality-row">
+            <fa-icon [icon]="faMoney"></fa-icon>
+            <h2>Presupuestado</h2>
+            <p>Facilitamos presupuestos cerrados <br> anticipadamente.</p>
+        </div>
+
+        <div class="quality-row">
+            <fa-icon [icon]="faCalendar"></fa-icon>
+            <h2>Garantia</h2>
+            <p>Ofrecemos 1 año de garantía en <br> nuestras reparaciones.</p>
+        </div>
+
+        <div class="quality-row">
+            <fa-icon [icon]="faTime"></fa-icon>
+            <h2>Experiencia</h2>
+            <p>Llevamos más de 15 años trabajando <br> con profesionales</p>
+        </div>
+
+
+    </div>
+</div>
+
+<!-------------------------- Sexta Seccion --------------------->
+
+<div class="footer">
+
 </div>

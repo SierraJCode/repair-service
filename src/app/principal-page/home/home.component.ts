@@ -20,6 +20,7 @@ export class HomeComponent {
   faTime = faClock;
 
 
+
   isMenuOpen: boolean = false;
 
   toggleMenu() : void{

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
-import { faBars, faTimes, faEnvelope, faPhone, faStar, faMoneyCheckDollar, faCalendar, faClock } from '@fortawesome/free-solid-svg-icons';
-
+import { icon } from '../../icons';
 
 @Component({
   selector: 'principal-home',
@@ -10,14 +9,7 @@ import { faBars, faTimes, faEnvelope, faPhone, faStar, faMoneyCheckDollar, faCal
 })
 export class HomeComponent {
 
-  faBars = faBars;
-  faTimes = faTimes;
-  faEnvelope = faEnvelope;
-  faPhone = faPhone;
-  faStar = faStar;
-  faMoney = faMoneyCheckDollar;
-  faCalendar = faCalendar;
-  faTime = faClock;
+  icon = icon;
 
 
 

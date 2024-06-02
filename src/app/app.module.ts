@@ -8,9 +8,10 @@ import { AppComponent } from './app.component';
 import { RepairCenterModule } from './repair-center/repair-center.module';
 import { PrincipalPageModule } from './principal-page/principal-page.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,7 @@
     <nav>
         <a href="/src/index.html"><img src="assets/logo.png"></a>
         <div class="nav-links" [ngStyle]="{'right': isMenuOpen ? '0' : '-200px'}">
-            <fa-icon [icon]="faTimes" (click)="toggleMenu()" class="fa"></fa-icon>
+            <fa-icon [icon]="icon.faTimes" (click)="toggleMenu()" class="fa"></fa-icon>
     
             <ul>
                 <li><a href="#">HOME</a></li>
@@ -11,7 +11,7 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
-        <fa-icon [icon]="faBars" (click)="toggleMenu()" class="fa"></fa-icon>
+        <fa-icon [icon]="icon.faBars" (click)="toggleMenu()" class="fa"></fa-icon>
     </nav>
     
     <section class="content">
@@ -73,13 +73,13 @@
         <div class="info-box">
             <p>Horario de atención de <br> Lunes a viernes de 8:00 am a 7:00 pm</p>
             <div>
-                <span> <fa-icon [icon]="faEnvelope"></fa-icon> </span>
+                <span> <fa-icon [icon]="icon.faEnvelope"></fa-icon> </span>
                 <a href="mailto:angellzoldyck8@gmail.com"> correoprueba&#64;gmail.com
                 </a>
             </div>
             
             <div>
-                <span><fa-icon [icon]="faPhone"></fa-icon></span>
+                <span><fa-icon [icon]="icon.faPhone"></fa-icon></span>
                 <a href="tel:+573167843083">+57 3167843083
                 </a>
             </div>
@@ -100,25 +100,25 @@
 <div class="col">
     <div class="quality">
         <div class="quality-row">
-            <fa-icon [icon]="faStar"></fa-icon>
+            <fa-icon [icon]="icon.faStar"></fa-icon>
             <h2>Calidad</h2>
             <p>Servicio premium puerta a puerta. <br> Recogida y entrega incluidas.</p>
         </div>
 
         <div class="quality-row">
-            <fa-icon [icon]="faMoney"></fa-icon>
+            <fa-icon [icon]="icon.faMoneyCheckDollar"></fa-icon>
             <h2>Presupuesto</h2>
             <p>Facilitamos presupuestos cerrados <br> anticipadamente.</p>
         </div>
 
         <div class="quality-row">
-            <fa-icon [icon]="faCalendar"></fa-icon>
+            <fa-icon [icon]="icon.faCalendar"></fa-icon>
             <h2>Garantia</h2>
             <p>Ofrecemos 1 año de garantía en <br> nuestras reparaciones.</p>
         </div>
 
         <div class="quality-row">
-            <fa-icon [icon]="faTime"></fa-icon>
+            <fa-icon [icon]="icon.faClock"></fa-icon>
             <h2>Experiencia</h2>
             <p>Llevamos más de 15 años trabajando <br> con profesionales</p>
         </div>
@@ -132,4 +132,11 @@
 <div class="footer">
     <h4>About us</h4>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.utem recusandae. Sequi dolorem porro eaque corrupti quaerat <br> nulla soluta reiciendis quid earum optio.</p>
+
+    <div class="icons">
+        <fa-icon class="co" [icon]="icon.faInstagram"></fa-icon>
+        <fa-icon class="co" [icon]="icon.faFacebook"></fa-icon>
+        <fa-icon class="co" [icon]="icon.faTwitter"></fa-icon>
+    </div>
+
 </div>

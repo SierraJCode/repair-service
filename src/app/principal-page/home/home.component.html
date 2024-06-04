@@ -1,28 +1,33 @@
-<div class="header">
-    <nav>
-        <a href="/src/index.html"><img src="assets/logo.png"></a>
-        <div class="nav-links" [ngStyle]="{'right': isMenuOpen ? '0' : '-200px'}">
-            <fa-icon [icon]="icon.faTimes" (click)="toggleMenu()" class="fa"></fa-icon>
+<nav>
+    <a href="/"><img src="assets/logo.png"></a>
+    <div class="nav-links" [ngStyle]="{'right': isMenuOpen ? '0' : '-200px'}">
+        <fa-icon [icon]="icon.faTimes" (click)="toggleMenu()" class="fa"></fa-icon>
+        
+        <ul>
+            <li><a routerLink="/">HOME</a></li>
+            <li><a routerLink="/about">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+    <fa-icon [icon]="icon.faBars" (click)="toggleMenu()" class="fa"></fa-icon>
     
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
-        <fa-icon [icon]="icon.faBars" (click)="toggleMenu()" class="fa"></fa-icon>
-    </nav>
-    
-    <section class="content">
-        <div class="text-box">
-            <h1>Center Repair Electronics</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ipsam non ut iure sunt porro perspiciatis libero debitis voluptatum ipsum nemo eum itaque, laboriosam magnam <br> autem labore, nihil voluptates tempore.</p>
-            <a href="#" class="btn-know" > Consultar </a>
-        </div>
-    </section>
+</nav>
 
-</div>
+
+<!-- <router-outlet></router-outlet> -->
+
+
+
+<section class="content">
+    <div class="text-box">
+        <h1>Center Repair Electronics</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ipsam non ut iure sunt porro perspiciatis libero debitis voluptatum ipsum nemo eum itaque, laboriosam magnam <br> autem labore, nihil voluptates tempore.</p>
+        <a href="#" class="btn-know" > Consultar </a>
+    </div>
+</section>
+
+
 
 <!---------------------- segunda sección --------------------->
 
@@ -42,7 +47,7 @@
             <img src="assets/archivo.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rerum facere sed dicta soluta cupiditate adipisci quae, iusto pariatur id, culpa quasi corrupti neque fugit nam saepe facilis esse quidem?</p>
         </div>
-    
+        
         <div class="service-col">
             <h3>Reparación cuadro de instrumentos</h3>
             <img src="assets/cuadro.png" alt="">
@@ -84,7 +89,7 @@
                 </a>
             </div>
         </div>
-
+        
         <div class="msj">
             <img src="assets/wasa.png" alt="">
             <h3>Whatsapp</h3>
@@ -104,26 +109,26 @@
             <h2>Calidad</h2>
             <p>Servicio premium puerta a puerta. <br> Recogida y entrega incluidas.</p>
         </div>
-
+        
         <div class="quality-row">
             <fa-icon [icon]="icon.faMoneyCheckDollar"></fa-icon>
             <h2>Presupuesto</h2>
             <p>Facilitamos presupuestos cerrados <br> anticipadamente.</p>
         </div>
-
+        
         <div class="quality-row">
             <fa-icon [icon]="icon.faCalendar"></fa-icon>
             <h2>Garantia</h2>
             <p>Ofrecemos 1 año de garantía en <br> nuestras reparaciones.</p>
         </div>
-
+        
         <div class="quality-row">
             <fa-icon [icon]="icon.faClock"></fa-icon>
             <h2>Experiencia</h2>
             <p>Llevamos más de 15 años trabajando <br> con profesionales</p>
         </div>
-
-
+        
+        
     </div>
 </div>
 
@@ -132,11 +137,11 @@
 <div class="footer">
     <h4>About us</h4>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.utem recusandae. Sequi dolorem porro eaque corrupti quaerat <br> nulla soluta reiciendis quid earum optio.</p>
-
+    
     <div class="icons">
         <fa-icon class="co" [icon]="icon.faInstagram"></fa-icon>
         <fa-icon class="co" [icon]="icon.faFacebook"></fa-icon>
         <fa-icon class="co" [icon]="icon.faTwitter"></fa-icon>
     </div>
-
+    
 </div>

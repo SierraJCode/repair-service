@@ -28,12 +28,12 @@ p {
 
 /*------------------------- home page----------------------------- */
 
-.header {
+/* .header {
     width: 100%;
     scroll-snap-align: center;
     scroll-snap-stop: always;
     overflow-x: hidden;
-}
+} */
 
 /* Nav */
 nav {
@@ -63,6 +63,7 @@ nav img {
     color: #444444;
     text-decoration: none;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .nav-links ul li::after {

@@ -1,8 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './principal-page/home/home.component';
+import { AboutComponent } from './principal-page/about/about.component';
 
 const routes: Routes = [
-  { path: 'repair-center', loadChildren: () => import('./repair-center/repair-center.module').then(m => m.RepairCenterModule) }
+  {path: '', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
+  {path: '**', component: HomeComponent}
+
+
+
+  // { path: 'repair-center', loadChildren: () => import('./repair-center/repair-center.module').then(m => m.RepairCenterModule) }
 ];
 
 @NgModule({

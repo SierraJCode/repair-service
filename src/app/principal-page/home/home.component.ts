@@ -11,14 +11,6 @@ export class HomeComponent {
 
   icon = icon;
 
-
-
-  isMenuOpen: boolean = false;
-
-  toggleMenu() : void{
-    this.isMenuOpen = !this.isMenuOpen;
-  }
-
   facilities = [
     { img: 'assets/caja.jpg', title: 'Reparación Centralita Bosch Motronic M1.1 / M1.2 / M1.3' },
     { img: 'assets/caja.jpg', title: 'Reparación Centralita ABS TRW EBC 450 ABS Ford' },

@@ -1,15 +1,20 @@
-<principal-home></principal-home>
+<nav>
+    <a href="/"><img src="assets/logo.png"></a>
+    <div class="nav-links" [ngStyle]="{'right': isMenuOpen ? '0' : '-200px'}">
+        <fa-icon [icon]="icon.faTimes" (click)="toggleMenu()" class="fa"></fa-icon>
+        
+        <ul>
+            <li><a routerLink="/">HOME</a></li>
+            <li><a routerLink="/about">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+    <fa-icon [icon]="icon.faBars" (click)="toggleMenu()" class="fa"></fa-icon>
+    
+</nav>
 
+<router-outlet></router-outlet>
 
-<!-- Centro de servicios -->
-
-<!-- <repair-about-page></repair-about-page> -->
-
-<!-- Reparaciones desatacadas -->
-
-<!-- <repair-facilities></repair-facilities> -->
-
-<!-- Testimonios -->
-
-<!-- <repair-testimonials></repair-testimonials> -->
+<shared-footer></shared-footer>
 

@@ -125,6 +125,21 @@ p {
     transition: 0.5s;
 }
 
+.service-col .button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #212528;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #212528;
+}
+
+.service-col .button:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
 h3 {
     font-weight: 600;
     margin: 10px 0;
@@ -154,6 +169,12 @@ h3 {
     border-radius: 10px;
     margin-bottom: 3%;
     text-align: left;
+}
+
+.repair-col:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all .5s ease;
 }
 
 .repair-col img {
@@ -202,7 +223,7 @@ h3 {
 }
 
 .msj img {
-    width: 100px; /* Adjust size as necessary */
+    width: 100px; 
     height: auto;
 }
 

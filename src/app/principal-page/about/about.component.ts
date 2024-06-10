@@ -1,3 +1,4 @@
+import { icon } from './../../icons';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+  icon=icon;
 
 }

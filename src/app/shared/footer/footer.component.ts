@@ -1,5 +1,5 @@
-import { icon } from './../../icons';
 import { Component } from '@angular/core';
+import { icon } from './../../icons';
 
 @Component({
   selector: 'shared-footer',

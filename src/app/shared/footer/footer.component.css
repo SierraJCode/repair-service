@@ -12,14 +12,11 @@
     color: #fff;
 }
 
-/* */
-
-.footer .icons fa-icon{
+.footer .icons .co{
     margin: 0 20px;
     font-size: 37px;
     transition: 0.5s;
     display: inline-block;
-    /* color: #f44336; */
 }
 
 fa-icon:hover {

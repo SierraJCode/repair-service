@@ -23,20 +23,9 @@ p {
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
 }
 
 /*------------------------- home page----------------------------- */
-
-/* .header {
-    width: 100%;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    overflow-x: hidden;
-} */
-
-/* Nav */
-
 
 .content{
     background-image: url(/assets/repair.jpg);
@@ -186,77 +175,6 @@ h3 {
     padding: 15px 0;
 }
 
-/*------------------------- cuarta seccion ----------------------*/
-
-.contact {
-    text-align: center;
-    background: #212528;
-    color: #fff;
-    padding: 10px;
-}
-
-.entire {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-}
-
-.entire .info-box div{
-    padding: 10px;
-}
-
-.entire .info-box a{
-    color: #25D366;
-}
-
-.info-box, .msj {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border-radius: 8px;
-    font-size: 20px;
-}
-
-.info-box p {
-    font-size: 20px;
-}
-
-.msj img {
-    width: 100px; 
-    height: auto;
-}
-
-.msj button {
-    margin-top: 10px;
-    padding: 17px 25px;
-    border: none;
-    font-weight: bold;
-    background-color: #25D366;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-    width: 200px;
-}
-
-.msj button:hover {
-    background-color: #fff;
-    color: #000;
-    transform: scale(1.1);
-}
-
-.fa-icon {
-    margin-right: 8px;
-}
-
-@media(max-width: 700px){
-    .entire{
-        flex-direction: column;
-        gap: 15px;
-    }
-}
-
 /* ----------------------Quinta sección------------------------ */
 
 .quality{
@@ -268,7 +186,6 @@ h3 {
 
 .quality-row fa-icon{
     font-size: 30px;
-    /* color: #fff3f3; */
 }
 
 @media(max-width: 700px){
@@ -339,7 +256,6 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    /* background-color: #f44336; */
 }
 
 .testimonials .body-container .testimonials-box{

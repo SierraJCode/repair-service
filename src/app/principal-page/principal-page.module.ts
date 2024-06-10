@@ -20,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     CommonModule,
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   exports:[
     HomeComponent

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { icon } from './../../icons';
 
 @Component({
   selector: 'app-info',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './info.component.css'
 })
 export class InfoComponent {
+  icon = icon;
 
 }

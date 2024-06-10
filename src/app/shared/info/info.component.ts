@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { icon } from './../../icons';
 
 @Component({
-  selector: 'app-info',
+  selector: 'share-info',
   templateUrl: './info.component.html',
   styleUrl: './info.component.css'
 })

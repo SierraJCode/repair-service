@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { ContactComponent } from './contact/contact.component';
+import { SharedModule } from '../shared/shared.module';
+
 
 
 
@@ -15,13 +17,14 @@ import { ContactComponent } from './contact/contact.component';
   declarations: [
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+
   ],
   imports: [
     CommonModule,
     FontAwesomeModule,
     AppRoutingModule,
-    
+    SharedModule
   ],
   exports:[
     HomeComponent

@@ -16,7 +16,8 @@ import { InfoComponent } from './info/info.component';
     FontAwesomeModule
   ],
   exports: [
-    FooterComponent
+    FooterComponent,
+    InfoComponent
   ]
 })
 export class SharedModule { }

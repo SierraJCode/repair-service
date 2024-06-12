@@ -71,6 +71,7 @@ nav img {
 
     .nav-links ul li a{
         color: #fff;
+        text-transform: uppercase;
     }
     nav .fa {
         display: block;

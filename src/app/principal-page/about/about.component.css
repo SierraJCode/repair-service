@@ -23,9 +23,15 @@
 }
 
 .page{
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: justify;
     padding: 4% 0;
 }
 
+@media screen and (max-width: 900px) {
+    .page{
+        width: 85%;
+    }
+    
+}

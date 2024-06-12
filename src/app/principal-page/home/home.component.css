@@ -23,6 +23,7 @@ p {
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*------------------------- home page----------------------------- */
@@ -177,12 +178,6 @@ h3 {
 
 /* ----------------------Quinta sección------------------------ */
 
-.quality{
-    display: flex;
-    justify-content: space-between;
-    margin: 5% 0;
-    flex-wrap: wrap;
-}
 
 .quality-row fa-icon{
     font-size: 30px;
@@ -190,31 +185,12 @@ h3 {
 
 @media(max-width: 700px){
 
-    .quality-row{
-        flex: 1 1 15%;
+    .quality{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
-
-.footer{
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-}
-
-.footer h4{
-    margin-bottom: 20px 0 25px 0;
-    font-weight: 600;
-
-}
-
-.icons .co{
-    color: #f44336;
-    margin: 0 13px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
 
 /* -----------------------sexta seccion------------------ */
 

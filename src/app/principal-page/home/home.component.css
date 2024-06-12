@@ -188,6 +188,10 @@ h3 {
     .quality{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .quality-row{
+        margin: 15px;
     }
 
 }

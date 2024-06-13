@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
 import { InfoComponent } from './info/info.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 
 
 @NgModule({
   declarations: [
     FooterComponent,
-    InfoComponent
+    InfoComponent,
+    TestimonialsComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { InfoComponent } from './info/info.component';
   ],
   exports: [
     FooterComponent,
-    InfoComponent
+    InfoComponent,
+    TestimonialsComponent
   ]
 })
 export class SharedModule { }

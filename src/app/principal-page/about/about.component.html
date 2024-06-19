@@ -5,23 +5,24 @@
 </div>
 
 <div class="body">
-    <p class="page">
-        Bienvenidos a nuestro taller de electrónica del automóvil, donde ofrecemos <strong> servicios especializados en la reparación de centralitas, ABS, reprogramación de centralitas, cuadros de instrumentos</strong>. Si tu coche presenta problemas eléctricos o electrónicos, no te preocupes, ¡nosotros podemos ayudarte! <br>
-        <br>
-        En nuestro taller, contamos con un equipo de expertos altamente capacitados y con experiencia en la reparación de sistemas electrónicos de automóviles. Nuestro compromiso es proporcionar una solución rápida y efectiva para cualquier problema que pueda presentar tu vehículo. <br>
-        <br>
-        Ofrecemos servicios de reparación de centralitas, donde nuestros técnicos pueden diagnosticar y reparar problemas con la unidad de control del motor, como fallos en la inyección de combustible, problemas de encendido, o incluso la pérdida de potencia. En el caso de la reparación de ABS, nuestros especialistas pueden solucionar problemas en el sistema de frenado, lo que garantiza tu seguridad en la carretera. <br>
-        <br>
-        También ofrecemos reparaciones en cuadros de instrumentos, donde podemos solucionar problemas con el velocímetro, el tacómetro, el indicador de combustible, entre otros. Nuestros técnicos pueden diagnosticar el problema y reemplazar las piezas dañadas para garantizar que tu coche esté funcionando correctamente. <br>
-        <br>
-        En nuestro taller, utilizamos herramientas y equipos especializados de alta calidad para garantizar que el trabajo se realice de manera precisa y efectiva. Además, ofrecemos una garantía en todas nuestras reparaciones para que puedas tener la tranquilidad de que tu vehículo está en buenas manos. <br>
-    </p>
+    <div class="container">
+        <p class="page">
+            Bienvenidos a nuestro taller de electrónica del automóvil, donde ofrecemos <strong> servicios especializados en la reparación de centralitas, ABS, reprogramación de centralitas, cuadros de instrumentos</strong>. Si tu coche presenta problemas eléctricos o electrónicos, no te preocupes, ¡nosotros podemos ayudarte! <br>
+            <br>
+            En nuestro taller, contamos con un equipo de expertos altamente capacitados y con experiencia en la reparación de sistemas electrónicos de automóviles. Nuestro compromiso es proporcionar una solución rápida y efectiva para cualquier problema que pueda presentar tu vehículo. <br>
+            <br>
+            Ofrecemos servicios de reparación de centralitas, donde nuestros técnicos pueden diagnosticar y reparar problemas con la unidad de control del motor, como fallos en la inyección de combustible, problemas de encendido, o incluso la pérdida de potencia. En el caso de la reparación de ABS, nuestros especialistas pueden solucionar problemas en el sistema de frenado, lo que garantiza tu seguridad en la carretera. <br>
+            <br>
+            También ofrecemos reparaciones en cuadros de instrumentos, donde podemos solucionar problemas con el velocímetro, el tacómetro, el indicador de combustible, entre otros. Nuestros técnicos pueden diagnosticar el problema y reemplazar las piezas dañadas para garantizar que tu coche esté funcionando correctamente. <br>
+            <br>
+            En nuestro taller, utilizamos herramientas y equipos especializados de alta calidad para garantizar que el trabajo se realice de manera precisa y efectiva. Además, ofrecemos una garantía en todas nuestras reparaciones para que puedas tener la tranquilidad de que tu vehículo está en buenas manos. <br>
+        </p>
 
-    <div class="gallery">
-        
+        <div class="gallery">
+            <h2>Galeria</h2>
+            <div class="gallery-item" *ngFor="let image of images">
+                <img [src]="image.src">
+            </div>
+        </div>
     </div>
-
 </div>
-
-<!-- <share-info></share-info> -->
-

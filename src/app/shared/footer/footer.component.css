@@ -23,6 +23,7 @@
     font-size: 35px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    
 }
 
 .footer .icons .co:hover {
@@ -80,19 +81,15 @@
 }
 
 @media screen and (max-width: 800px) {
-    .footer .flex .block {
-        flex: 0 0 100%;
-        text-align: center;
-        padding: 10px 0;
-        border-left: none;
-    }
-
     .footer .flex .block.bder {
         border-left: none;
         padding-left: 0;
     }
+    .footer .flex .block.bder:last-child{
+        display: none;
+    }
 
     .footer .flex .block img {
-        max-width: 80px;
+        max-width: 150px;
     }
 }

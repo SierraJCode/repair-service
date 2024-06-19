@@ -1,14 +1,10 @@
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: url(/assets/about.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-color: #000;
     top: 0;
     height: 500px;
     color: #fff;
-    margin-bottom: 20%;
 }
     
 .sub-header .container{
@@ -29,4 +25,11 @@
 
 .sub-header .container h1{
     font-size: 40px;
+}
+
+.body{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
 }

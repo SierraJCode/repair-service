@@ -1,0 +1,10 @@
+<div class="col">
+    <h1>Nuestra Calidad de Servicio</h1>
+    <div class="row quality">
+        <div class="quality-row" *ngFor="let item of qualityItems">
+            <fa-icon [icon]="item.icon"></fa-icon>
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.description }}</p>
+        </div>
+    </div>
+</div>

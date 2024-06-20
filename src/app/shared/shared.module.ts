@@ -4,6 +4,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
 import { InfoComponent } from './info/info.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ServicesComponent } from './services/services.component';
 
 
 
@@ -11,7 +12,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
   declarations: [
     FooterComponent,
     InfoComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ServicesComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
   exports: [
     FooterComponent,
     InfoComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ServicesComponent
   ]
 })
 export class SharedModule { }

@@ -85,6 +85,8 @@
     -moz-animation: appear 1s ease-out forwards;
     -o-animation: appear 1s ease-out forwards;
     animation: appear 1s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0;
 }
 
 

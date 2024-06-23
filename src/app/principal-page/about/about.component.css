@@ -80,6 +80,13 @@
     animation-range: entry 0;
 }
 
+.block {
+    -webkit-animation: appear 1s ease-out forwards;
+    -moz-animation: appear 1s ease-out forwards;
+    -o-animation: appear 1s ease-out forwards;
+    animation: appear 1s ease-out forwards;
+}
+
 
 
 @media screen and (max-width: 900px) {

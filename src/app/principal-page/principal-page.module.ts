@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from '../shared/shared.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -18,6 +19,7 @@ import { SharedModule } from '../shared/shared.module';
     HomeComponent,
     AboutComponent,
     ContactComponent,
+    NotFoundComponent,
 
   ],
   imports: [

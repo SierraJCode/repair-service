@@ -9,6 +9,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from '../shared/shared.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ServicesComponent } from './services/services.component';
 
 
 
@@ -20,6 +21,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AboutComponent,
     ContactComponent,
     NotFoundComponent,
+    ServicesComponent,
 
   ],
   imports: [

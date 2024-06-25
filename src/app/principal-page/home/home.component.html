@@ -43,7 +43,7 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ipsa a beatae eligendi veniam quis harum ea facere vitae ipsam repreh</p>
     
     <div class="repair-container">
-        <div class="repair-col" *ngFor="let facilite of facilities">
+        <div class="repair-col" *ngFor="let facilite of facilities; let i = index" [routerLink]="['/repair', i]">
             <img [src]="facilite.img">
             <h3> {{facilite.title}} </h3>
         </div>

@@ -18,9 +18,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-
     FontAwesomeModule,
-
     SharedModule,
     PrincipalPageModule,
   ],

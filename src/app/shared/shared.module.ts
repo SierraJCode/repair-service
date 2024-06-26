@@ -5,7 +5,6 @@ import { FooterComponent } from './footer/footer.component';
 import { InfoComponent } from './info/info.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ServicesComponent } from './services/services.component';
-import { ShowRepairComponent } from './show-repair/show-repair.component';
 
 
 
@@ -15,7 +14,6 @@ import { ShowRepairComponent } from './show-repair/show-repair.component';
     InfoComponent,
     TestimonialsComponent,
     ServicesComponent,
-    ShowRepairComponent
   ],
   imports: [
     CommonModule,

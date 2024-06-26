@@ -96,6 +96,10 @@
         padding: 0;
         margin: 5px;
     }
+    .footer .flex .block.bder a{
+        text-decoration: underline;
+    }
+
     .footer .flex .block.bder:nth-child(even){
         display: none;
     }

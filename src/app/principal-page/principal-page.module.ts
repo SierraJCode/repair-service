@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from '../shared/shared.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ServicesComponent } from './services/services.component';
+import { ServiceDetailComponent } from './services-detail/services-detail.component';
 
 
 
@@ -22,6 +23,7 @@ import { ServicesComponent } from './services/services.component';
     ContactComponent,
     NotFoundComponent,
     ServicesComponent,
+    ServiceDetailComponent
 
   ],
   imports: [

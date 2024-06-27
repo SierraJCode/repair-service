@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { Service } from '../../interface/service.model';
+import { ServiceService } from '../../providers/service.service';
 
 import { icon } from '../../icons';
-import { RepairService } from '../../providers/repair.service';
-import { Facility } from '../../interface/Facility';
 
 @Component({
   selector: 'principal-home',
@@ -13,15 +15,19 @@ export class HomeComponent implements OnInit{
 
   icon = icon;
 
-  facilities: Facility[] = [];
+  facilities: Service[] = [];
 
-  constructor(private repairService: RepairService){}
+  constructor(
+    private serviceService: ServiceService,
+    private router: Router,
+  ){}
 
   ngOnInit(): void {
-    this.facilities = this.repairService.getFacilities();
+    this.facilities = this.serviceService.getServicesHome();
   }
 
-
-
+  viewDetails(service: Service): void {
+    this.router.navigate(['/service-detail', service.name]);
+  }
 
 }

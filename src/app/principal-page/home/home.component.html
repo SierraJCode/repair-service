@@ -44,9 +44,9 @@
     
     <!-- <app-services></app-services> -->
     <div class="repair-container">
-        <div class="repair-col" *ngFor="let facilite of facilities; let i = index" [routerLink]="['/repair', i]">
-            <img [src]="facilite.img">
-            <h3> {{facilite.title}} </h3>
+        <div class="repair-col" *ngFor="let facilite of facilities" (click)="viewDetails(facilite)">
+            <img [src]="facilite.image">
+            <h3> {{facilite.name}} </h3>
         </div>
     </div>
 </div>

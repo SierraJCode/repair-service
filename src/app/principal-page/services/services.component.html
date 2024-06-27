@@ -6,7 +6,7 @@
       <option *ngFor="let marca of marcas" [value]="marca">{{ marca }}</option>
     </select>
   </div>
-  
+
   <div class="services-list">
       <div *ngFor="let service of filteredServices" class="service-item" (click)="viewDetails(service)">
         <h3>{{ service.name }}</h3>

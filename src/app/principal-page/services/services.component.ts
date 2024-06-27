@@ -13,7 +13,9 @@ export class ServicesComponent implements OnInit {
   filteredServices: Service[] = [];
   marcas = ['Opel', 'Audi', 'BMW', 'Mercedes'];
 
-  constructor(private serviceService: ServiceService, private router: Router) { }
+  constructor(
+    private serviceService: ServiceService, 
+    private router: Router) { }
 
   ngOnInit(): void {
     this.services = this.serviceService.getServices();

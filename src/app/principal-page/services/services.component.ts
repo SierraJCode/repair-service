@@ -31,6 +31,7 @@ export class ServicesComponent implements OnInit {
   ngOnInit(): void {
     this.services = this.serviceService.getServices();
     this.filteredServices = this.services;
+    window.scrollTo(0, 0)
   }
 
   filterByMarca(marca: string): void {

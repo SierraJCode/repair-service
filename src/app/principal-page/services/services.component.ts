@@ -11,7 +11,18 @@ import { ServiceService } from '../../providers/service.service';
 export class ServicesComponent implements OnInit {
   services: Service[] = [];
   filteredServices: Service[] = [];
-  marcas = ['Opel', 'Audi', 'BMW', 'Mercedes'];
+  marcas = [
+    'Opel',
+    'Mercedes',
+    'Peugeot',
+    'Volkswagen',
+    'Fiat',
+    'Ford',
+    'Toyota',
+    'Audi',
+    'BMW',
+    'Alfa Romeo'
+  ]
 
   constructor(
     private serviceService: ServiceService, 
